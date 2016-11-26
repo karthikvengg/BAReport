@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BA Report: Pass</title>
+<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+<style>
+
+*{
+	margin:1px auto;
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color:#000000;
+	color:#666666;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#2cace3;
+}
+
+
+#wrapper {
+	background:#FFFFFF;
+	width: 794px;
+}
+
+#tile{
+	height:174px;
+	padding-left:102px;
+	background-color:#339933;
+}
+
+#wrapper label.Pass{
+	color:#FFFFFF;
+//	margin-left:30px;
+	font-size: 18px;
+}
+
+label[for=Build]{
+	color:#FFFFFF;
+	margin-left:30px;
+	font-size: 24px;
+}
+
+label[for=OS]{
+	color:#FFFFFF;
+	margin-left:30px;
+	font-size: 22px;
+	line-height:32px;
+}
+
+#location {
+	height:57px;
+	width:794px;
+	background-color:rgb(255, 248, 225);		
+	display: table-cell; 
+	vertical-align:middle;
+}
+	
+#location label[for=Location]{
+	color:#666666;
+	margin-left:208px;
+	font-size: 16px;
+}
+
+#PWE{
+	height: 90px;	
+	padding-bottom:10px;
+	font-size:12px;
+}
+
+#PWE p{
+	display:table-cell;
+	vertical-align:bottom;
+	height:90px;
+	padding-left:20px;
+}
+
+#PWE p label[for=PWE]{
+	color:#ff7200;
+}
+
+#wrapper table{
+	width:794px;
+	font-size:11px;
+}
+
+#wrapper table.table2 tr td{
+	height:30px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;	
+}
+
+#wrapper table.table3 tr td{
+	height:30px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;	
+}
+
+
+#wrapper table.table2 tr td{
+	border-right: 2px solid #FFFFFF;
+}
+
+#wrapper table tr.title td{
+	background-color:#339933;
+}
+
+#wrapper table tr.header{
+	height:120px;
+	vertical-align:top;
+	background-color:#e2e2e2;	
+}
+
+#wrapper table tr.header2{
+	vertical-align:top;
+	background-color:#e2e2e2;	
+}
+
+#wrapper table tr.header td{
+	padding: 10px 20px 10px 20px; //top right bottom left
+}
+
+#wrapper table tr td.last_col{
+	border-right: none;
+}
+
+#wrapper table tr td label.Pass{
+	padding-left:15px;	
+}
+
+#wrapper table tr td label.Fail{
+	padding-left:15px;	
+}
+
+#wrapper table tr td label.NA{
+	padding-left:15px;	
+}
+
+#wrapper table tr.grey td{
+	background-color:#f2f2f2;
+}
+
+#wrapper table tr.white td{
+	background-color:#ffffff;
+}
+
+#wrapper table tr.break{
+	background-color:#ffffff;
+	height:50px;
+}
+
+label[for=title]{
+		font-size:12px;
+}
+
+#wrapper img.tick{
+	float:left;
+}
+
+#wrapper img.cross{
+	float:left;
+}
+
+#wrapper img.NA{
+	float:left;
+}
+
+#wrapper table tr td label.Pass{
+	color:#339933;	
+	font-size:18px;
+}
+
+#wrapper table tr td label.Fail{
+	color:#c81a00;	
+	font-size:18px;
+}	
+
+#wrapper table tr td label.NA{
+	color:#666666;	
+	font-size:18px;
+}	
+
+
+#wrapper label.incident{
+	color:#2cace3;	
+	font-size:14px;
+	float:left;
+}
+
+
+#wrapper label.urls{
+	color:#2cace3;	
+}
+
+#wrapper label.known{
+	font-size:14px;
+	float:left;
+}
+
+#wrapper label.scrum_team{
+	font-size:14px;
+	color:#c81a00;
+}
+
+#wrapper label.age{
+	font-size:14px;
+	color:#666666;
+}
+
+label[for=green]{
+	color:#339933;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<table  cellpadding="0" cellspacing="0">
+		<tr class="logo" height="60" style="background-color:#FFFFFF;">			
+			<td colspan="2" style="padding-left:20px;"><img src="images/logo_norton.png" alt="logo" /></td>
+		</tr>
+	</table>
+	<table cellpadding="0" cellspacing="0" style="background-color:#339933;">		
+		<tr class="title" height="174">
+			<td class="Icon_checkmark" style="padding-left:102px;" width="76">
+				<img src="images/Icon_checkmark.png" alt="Icon_checkmark"/>
+			</td>
+			<td>
+				<label for="Pass">Pass</label><br/>
+				<label for="Build">BA Report for Norton Security Build 22.5.0.69</label><br/>
+				<label for="OS">NSBU Beta on Windows 8 32 bit</label>
+			</td>
+		</tr>
+	</table>
+	<!--<div id="header">
+		<div id="logo">			
+		</div>
+		<div id="tile">		
+			<div id="message">
+				<img class="Icon_checkmark" src="images/Icon_checkmark.png" alt="Icon_checkmark"/>							
+				<label for="Pass">Pass</label><br/>
+				<label for="Build">BA Report for Norton Security Build 22.5.0.69</label><br/>
+				<label for="OS">NSBU Beta on Windows 8 32 bit</label>
+			</div>	
+		</div>
+		<div id="location">		
+			<label for="Location">Layouts location - NS/NSBU: <a href="#">View</a>  |  Patches location: <a href="#">View</a></label><br/>
+		</div>		
+		<div id="PWE">		
+			<p><strong>BA Report - <label for="PWE">Pass With Exception </label> </strong>(BA is marked Pass With Exception because most of the functionality is available.)<p>
+		</div>				
+	</div>-->
+	<table cellpadding="0" cellspacing="0" class="table2">
+		<tr class="header">
+			<td width="120"><strong>Components</strong></td>
+			<td width="100"><strong>NSBU Beta 22.5.0.69</strong><br/>Environment-Beta Win8 32bit English Muthiah/Ram/Uma</td>
+			<td width="100"><strong>NS ESD30D 22.5.0.69</strong><br/>Environment-COS_INT Win10 64bit English Muthiah/Ram/Uma</td>
+			<td width="130"><strong>Incident</strong></td>
+			<td width="100"><strong>Scrum Team</strong></td>
+			<td class="last_col"><strong>Age</strong></td>
+		</tr>
+		<tr class="grey">
+			<td>Installation & Configuration</td>
+			<td><img class='tick' src="images/icon_pass.png" alt="small_tick"/><label class="Pass">Pass</label></td>
+			<td><img class='cross' src="images/icon_fail.png" alt="small_cross" /><label class="Fail">Fail</label></td>
+			<td><label class="incident">4561328 </label><label class="known">(Known)</label><a href="#"><img src="images/icon_info.png" alt="info_icon"/></a></td>
+			<td><label class="scrum_team">November</label></td>												
+			<td width="60"><label class="age">4 builds</label></td>			
+		</tr>
+		<tr class="white">
+			<td>Install check</td>
+			<td><img class='NA' src="images/icon_na.png" alt="small_NA"/><label class="NA">NA</label></td>
+			<td><img class='tick' src="images/icon_pass.png" alt="small_tick"/><label class="Pass">Pass</label></td>
+			<td></td>
+			<td>-</td>
+			<td>-</td>															
+		</tr>	
+		<tr class="grey">
+			<td>Licensing</td>
+			<td><img class='tick' src="images/icon_pass.png" alt="small_tick"/><label class="Pass">Pass</label></td>
+			<td><img class='cross' src="images/icon_fail.png" alt="small_cross" /><label class="Fail">Fail</label></td>
+			<td><label class="incident">4561328 </label><label class="known">(Known)</label><a href="#"><img src="images/icon_info.png" alt="info_icon"/></a></td>
+			<td><label class="scrum_team">November</label></td>												
+			<td width="60"><label class="age">3 builds</label></td>			
+		</tr>		
+		<tr class="break">		
+		</tr>
+		<tr class="white">		
+			<td><b><label for="title">File Versions</label></b></td>
+		</tr>			
+		<tr class="header2">
+			<td width="120"><strong>Components</strong></td>
+			<td width="120"><strong>DLL Name</strong></td>
+			<td colspan=4><strong>Product Version</strong></td>			
+		</tr>			
+		<tr class="grey">
+			<td>Antispam</td>
+			<td>asEngine.dll</td>
+			<td colspan=4>22.5.0.<label for="green">69</label></td>
+		</tr>
+		<tr class="white">
+			<td>AutoProtect</td>
+			<td>Srtsp32.dll</td>
+			<td colspan=4>14.7.3.<label for="green">7</label></td>
+		</tr>
+		<tr class="break">		
+		</tr>		
+	</table>
+	
+	<table cellpadding="1" cellspacing="1" class="table3">
+		<tr class="white">		
+			<td><b><label for="title">URL Info.</label></b></td>
+		</tr>					
+		<tr class="header2">
+			<td><strong>Server</strong></td>
+			<td><strong>URL</strong></td>
+			<td><strong>Beta URL</strong></td>
+		</tr>
+		<tr class="grey">
+			<td>SSO Web Service</td>
+			<td><label class="urls">login-int.norton.com</label></td>
+			<td colspan=4><label class="urls">login-int.norton.com</label></td>
+		</tr>		
+		<tr class="white">
+			<td>Oxygen COMM</td>
+			<td><label class="urls">https://o2-int.norton.com/api</label></td>
+			<td colspan=4><label class="urls">https://o2-int.norton.com/api</label></td>
+		</tr>		
+	</table>
+	
+</div>
+</body>
+</html>

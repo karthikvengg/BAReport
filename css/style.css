@@ -1,0 +1,219 @@
+﻿*{
+	margin:1px auto;
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-color:#000000;
+	color:#666666;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-family:"Symantec Sans";
+}
+
+a {
+	text-decoration:none;
+	color:#2cace3;
+}
+
+
+#wrapper {
+	background:#FFFFFF;
+	width: 794px;
+}
+
+#tile{
+	height:174px;
+	padding-left:102px;
+	background-color:#339933;
+}
+
+#wrapper label.Pass{
+	color:#FFFFFF;
+//	margin-left:30px;
+	font-size: 18px;
+}
+
+label[for=Build]{
+	color:#FFFFFF;
+	margin-left:30px;
+	font-size: 24px;
+}
+
+label[for=OS]{
+	color:#FFFFFF;
+	margin-left:30px;
+	font-size: 22px;
+	line-height:32px;
+}
+
+#location {
+	height:57px;
+	width:794px;
+	background-color:rgb(255, 248, 225);		
+	display: table-cell; 
+	vertical-align:middle;
+}
+	
+#location label[for=Location]{
+	color:#666666;
+	margin-left:208px;
+	font-size: 16px;
+}
+
+#PWE{
+	height: 90px;	
+	padding-bottom:10px;
+	font-size:12px;
+}
+
+#PWE p{
+	display:table-cell;
+	vertical-align:bottom;
+	height:90px;
+	padding-left:20px;
+}
+
+#PWE p label[for=PWE]{
+	color:#ff7200;
+}
+
+#wrapper table{
+	width:794px;
+	font-size:11px;
+}
+
+#wrapper table.table2 tr td{
+	height:30px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;	
+}
+
+#wrapper table.table3 tr td{
+	height:30px;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:20px;	
+}
+
+
+#wrapper table.table2 tr td{
+	border-right: 2px solid #FFFFFF;
+}
+
+#wrapper table tr.title td{
+	background-color:#339933;
+}
+
+#wrapper table tr.header{
+	height:120px;
+	vertical-align:top;
+	background-color:#e2e2e2;	
+}
+
+#wrapper table tr.header2{
+	vertical-align:top;
+	background-color:#e2e2e2;	
+}
+
+#wrapper table tr.header td{
+	padding: 10px 20px 10px 20px; //top right bottom left
+}
+
+#wrapper table tr td.last_col{
+	border-right: none;
+}
+
+#wrapper table tr td label.Pass{
+	padding-left:15px;	
+}
+
+#wrapper table tr td label.Fail{
+	padding-left:15px;	
+}
+
+#wrapper table tr td label.NA{
+	padding-left:15px;	
+}
+
+#wrapper table tr.grey td{
+	background-color:#f2f2f2;
+}
+
+#wrapper table tr.white td{
+	background-color:#ffffff;
+}
+
+#wrapper table tr.break{
+	background-color:#ffffff;
+	height:50px;
+}
+
+label[for=title]{
+		font-size:12px;
+}
+
+#wrapper img.tick{
+	float:left;
+}
+
+#wrapper img.cross{
+	float:left;
+}
+
+#wrapper img.NA{
+	float:left;
+}
+
+#wrapper table tr td label.Pass{
+	color:#339933;	
+	font-size:18px;
+}
+
+#wrapper table tr td label.Fail{
+	color:#c81a00;	
+	font-size:18px;
+}	
+
+#wrapper table tr td label.NA{
+	color:#666666;	
+	font-size:18px;
+}	
+
+
+#wrapper label.incident{
+	color:#2cace3;	
+	font-size:14px;
+	float:left;
+}
+
+
+#wrapper label.urls{
+	color:#2cace3;	
+}
+
+#wrapper label.known{
+	font-size:14px;
+	float:left;
+}
+
+#wrapper label.scrum_team{
+	font-size:14px;
+	color:#c81a00;
+}
+
+#wrapper label.age{
+	font-size:14px;
+	color:#666666;
+}
+
+label[for=green]{
+	color:#339933;
+}
